@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0468E4A01B5F3F44C5C46781 /* Pods_SnapChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF32BB49DCA6F04FE447AF02 /* Pods_SnapChat.framework */; };
+		8F7BFA6E1EABA065003E4086 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7BFA6D1EABA065003E4086 /* SnapsViewController.swift */; };
 		8FABA90A1EA951E7001B1F34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABA9091EA951E7001B1F34 /* AppDelegate.swift */; };
-		8FABA90C1EA951E7001B1F34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABA90B1EA951E7001B1F34 /* ViewController.swift */; };
+		8FABA90C1EA951E7001B1F34 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABA90B1EA951E7001B1F34 /* SignInViewController.swift */; };
 		8FABA90F1EA951E7001B1F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FABA90D1EA951E7001B1F34 /* Main.storyboard */; };
 		8FABA9121EA951E7001B1F34 /* SnapChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FABA9101EA951E7001B1F34 /* SnapChat.xcdatamodeld */; };
 		8FABA9141EA951E7001B1F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FABA9131EA951E7001B1F34 /* Assets.xcassets */; };
 		8FABA9171EA951E7001B1F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FABA9151EA951E7001B1F34 /* LaunchScreen.storyboard */; };
+		8FABA9231EA993A5001B1F34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FABA9221EA993A5001B1F34 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73FF17C8E1E739070AE453FB /* Pods-SnapChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapChat/Pods-SnapChat.debug.xcconfig"; sourceTree = "<group>"; };
+		8F7BFA6C1EAB9F65003E4086 /* SnapChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnapChat.entitlements; sourceTree = "<group>"; };
+		8F7BFA6D1EABA065003E4086 /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
 		8FABA9061EA951E7001B1F34 /* SnapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FABA9091EA951E7001B1F34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FABA90B1EA951E7001B1F34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FABA90B1EA951E7001B1F34 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		8FABA90E1EA951E7001B1F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FABA9111EA951E7001B1F34 /* SnapChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnapChat.xcdatamodel; sourceTree = "<group>"; };
 		8FABA9131EA951E7001B1F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FABA9161EA951E7001B1F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FABA9181EA951E7001B1F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FABA9221EA993A5001B1F34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA25A22F193DA709BA59D5C4 /* Pods-SnapChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapChat/Pods-SnapChat.release.xcconfig"; sourceTree = "<group>"; };
+		EF32BB49DCA6F04FE447AF02 /* Pods_SnapChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +40,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0468E4A01B5F3F44C5C46781 /* Pods_SnapChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5049187F97BD36E13530BF83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73FF17C8E1E739070AE453FB /* Pods-SnapChat.debug.xcconfig */,
+				BA25A22F193DA709BA59D5C4 /* Pods-SnapChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8FABA8FD1EA951E7001B1F34 = {
 			isa = PBXGroup;
 			children = (
 				8FABA9081EA951E7001B1F34 /* SnapChat */,
+				8FABA9221EA993A5001B1F34 /* GoogleService-Info.plist */,
 				8FABA9071EA951E7001B1F34 /* Products */,
+				5049187F97BD36E13530BF83 /* Pods */,
+				AB743EDBD3ADB8A004713121 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +78,10 @@
 		8FABA9081EA951E7001B1F34 /* SnapChat */ = {
 			isa = PBXGroup;
 			children = (
+				8F7BFA6C1EAB9F65003E4086 /* SnapChat.entitlements */,
 				8FABA9091EA951E7001B1F34 /* AppDelegate.swift */,
-				8FABA90B1EA951E7001B1F34 /* ViewController.swift */,
+				8FABA90B1EA951E7001B1F34 /* SignInViewController.swift */,
+				8F7BFA6D1EABA065003E4086 /* SnapsViewController.swift */,
 				8FABA90D1EA951E7001B1F34 /* Main.storyboard */,
 				8FABA9131EA951E7001B1F34 /* Assets.xcassets */,
 				8FABA9151EA951E7001B1F34 /* LaunchScreen.storyboard */,
@@ -67,6 +91,14 @@
 			path = SnapChat;
 			sourceTree = "<group>";
 		};
+		AB743EDBD3ADB8A004713121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF32BB49DCA6F04FE447AF02 /* Pods_SnapChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FABA91B1EA951E7001B1F34 /* Build configuration list for PBXNativeTarget "SnapChat" */;
 			buildPhases = (
+				51D808B69813986FE8ADAC45 /* [CP] Check Pods Manifest.lock */,
 				8FABA9021EA951E7001B1F34 /* Sources */,
 				8FABA9031EA951E7001B1F34 /* Frameworks */,
 				8FABA9041EA951E7001B1F34 /* Resources */,
+				30C10C3015241AEE74E1D2C4 /* [CP] Embed Pods Frameworks */,
+				2EFDCCA227E84FAEB58794ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -101,6 +136,11 @@
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 5LSUF525AK;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -129,18 +169,68 @@
 			files = (
 				8FABA9171EA951E7001B1F34 /* LaunchScreen.storyboard in Resources */,
 				8FABA9141EA951E7001B1F34 /* Assets.xcassets in Resources */,
+				8FABA9231EA993A5001B1F34 /* GoogleService-Info.plist in Resources */,
 				8FABA90F1EA951E7001B1F34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EFDCCA227E84FAEB58794ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapChat/Pods-SnapChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30C10C3015241AEE74E1D2C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapChat/Pods-SnapChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51D808B69813986FE8ADAC45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FABA9021EA951E7001B1F34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FABA90C1EA951E7001B1F34 /* ViewController.swift in Sources */,
+				8F7BFA6E1EABA065003E4086 /* SnapsViewController.swift in Sources */,
+				8FABA90C1EA951E7001B1F34 /* SignInViewController.swift in Sources */,
 				8FABA90A1EA951E7001B1F34 /* AppDelegate.swift in Sources */,
 				8FABA9121EA951E7001B1F34 /* SnapChat.xcdatamodeld in Sources */,
 			);
@@ -265,6 +355,7 @@
 		};
 		8FABA91C1EA951E7001B1F34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FF17C8E1E739070AE453FB /* Pods-SnapChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5LSUF525AK;
@@ -278,6 +369,7 @@
 		};
 		8FABA91D1EA951E7001B1F34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA25A22F193DA709BA59D5C4 /* Pods-SnapChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5LSUF525AK;
@@ -308,6 +400,7 @@
 				8FABA91D1EA951E7001B1F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
