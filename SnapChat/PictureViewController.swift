@@ -65,7 +65,7 @@ class PictureViewController: UIViewController, UIImagePickerControllerDelegate, 
             } else {
                 
                 
-                print(metadata!.downloadURL())
+                print(metadata!.downloadURL() as Any)
                 
                 self.performSegue(withIdentifier: "selectUserSegue", sender: nil)
             
